@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+    
+        <title>Bookmark your URL</title>
+        
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" href="css/normalize.css" />
+        
+        <link rel="stylesheet" href="css/style.css" />
+    
+    </head>
+    
+    <body onload="getBookmarks();">
+    
+        <div class="welcome" id="welcomeDiv">
+            
+            <h1>Hello. This is a website to bookmark your URLs! </h1>
+            
+            <input maxlength="11" type="text" name="fn" placeholder="Enter your firstname" id="input" />
+            
+            <button id="firstButton" onclick="hideWelcome()">Click me to bookmark your favorite 
+            
+            URLs
+            
+            </button>
+            
+        </div>
+        
+        <div id="parentDiv" style="display:none;">
+        
+            <div class="left" id="addingBookmark">
+
+                <h1 id="welcomeMsg">Welcome, </h1>
+                
+                <form id="mainForm">
+                
+                    <input id="title" type=text placeholder="Title: " />
+                    <input id="url" type=text placeholder="URl: " />
+                    <textarea style="display: block;" cols="24" rows="7" id="desc" placeholder="Describe your favorite!"></textarea>
+                    <button type="submit">Submit</button>
+                
+                </form>
+
+            </div>
+
+            <div class="right" id="bookmarkWindow">
+
+                <h2>Your bookmark list</h2>
+                
+            </div>
+            
+        </div>
+    
+    </body>
+    
+    <script src="js/script.js"></script>
+    
+</html>

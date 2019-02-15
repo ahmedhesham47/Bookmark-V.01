@@ -1,0 +1,111 @@
+body{
+    background-color: antiquewhite;
+    color:blueviolet;
+    height:1500px;
+}
+
+
+.welcome, #parentDiv{
+    margin: 0 auto;
+    width:700px;
+    position: relative;
+    top:80px;
+}
+
+#parentDiv{
+    border-top: 2px solid black;
+    height:500px;
+}
+
+h1{
+    font-family: fantasy, Arial;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.welcome input{
+    text-align: center;
+    width:400px;
+    padding:5px;
+    background-color:darksalmon;
+    color:white;
+    font-size: 20px;
+    margin-left:75px;
+    margin-top:25px; 
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+}
+
+.welcome input:hover{
+    background-color: burlywood;
+}
+
+#firstButton{
+    text-align: center;
+    width:400px;
+    padding:5px;
+    background-color:aliceblue;
+    color:deeppink;
+    font-size: 15px;
+    margin-left:75px;
+    margin-top:25px; 
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+#firstButton:hover{
+    background-color: rgba(94,97,100,0.2);
+}
+
+.left{
+    float:left;
+    width:48%;
+    margin-left:10px;
+    position: absolute;
+}
+
+.right{
+    float:right;
+    width:51%;
+    margin-left:35px;
+    margin-top:5px;
+}
+
+#parentDiv button {
+    background-color:forestgreen;
+    border: 2px solid yellow;
+    padding:10px;
+    color:white;
+}
+
+#parentDiv input[type="text"]{
+    margin:10px 0 20px 0;
+    width:230px;  
+    padding:5px;
+    font-weight: bold;
+    color:blue;
+}
+
+#parentDiv textarea{
+    padding:10px;
+    margin-bottom:25px;
+    color:blue;
+    font-weight: bold;
+}
+
+#parentDiv #mainForm button{
+    width:230px;
+    padding:3px;
+    background-color: lightslategray;
+    border: none;
+}
+
+#parentDiv #mainForm button:hover{
+    border: 2px solid green;
+    background-color: greenyellow;
+}
+
+#parentDiv #mainForm button:active{
+    background-color: red;
+}
